@@ -337,7 +337,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 5.717e-42}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -529,6 +529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Washer
       objectReference: {fileID: 0}
+    - target: {fileID: 3964225563936930907, guid: d5543e0e52b293d4e847e5dc7a369682,
+        type: 3}
+      propertyPath: m_TagString
+      value: Container
+      objectReference: {fileID: 0}
     - target: {fileID: 3964225563936930983, guid: d5543e0e52b293d4e847e5dc7a369682,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -598,6 +603,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dryer
       objectReference: {fileID: 0}
+    - target: {fileID: 5665097008190718234, guid: 36b8f1d75e7dd6e4caa72a206876e541,
+        type: 3}
+      propertyPath: m_TagString
+      value: Container
+      objectReference: {fileID: 0}
     - target: {fileID: 5665097008190718239, guid: 36b8f1d75e7dd6e4caa72a206876e541,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -665,6 +675,11 @@ PrefabInstance:
     - target: {fileID: 6832503912735294327, guid: e690953904069914ea29d20594cb9679,
         type: 3}
       propertyPath: m_Name
+      value: Hamper
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832503912735294327, guid: e690953904069914ea29d20594cb9679,
+        type: 3}
+      propertyPath: m_TagString
       value: Hamper
       objectReference: {fileID: 0}
     - target: {fileID: 6832503912735294346, guid: e690953904069914ea29d20594cb9679,
